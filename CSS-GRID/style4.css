@@ -1,0 +1,384 @@
+.image1,.image2,.image3,.image4,
+.image5,.image6,.image7,.image8,
+.image9,.image10,.image11,.image12,
+.image13,.image14,.image-ligne15,
+.image-ligne16,.image-ligne17,.image-ligne18,
+.image-ligne19,.image-ligne20,.image-ligne21,
+.image-ligne22,.image-ligne23,.image-ligne24,
+.image-ligne25,.image-ligne26,.image-ligne27,
+.image-ligne28,.image-ligne29,.image-ligne30,
+.image-grid-1, .image-grid-2, .image-grid-3,
+.image-grid-4
+{
+	background-color:white;
+}
+.image-grid-1{
+	display: grid;
+	border: 2px solid;
+	grid-template-columns:  1fr;
+	grid-template-areas: "texte" ;
+	                    
+}
+
+.image-grid-2{
+	display: grid;
+	border: 2px solid;
+	grid-template-columns:  1fr;
+	grid-template-areas: "texte" ;
+	                    
+}
+
+.image-grid-3{
+	display: grid;
+	border: 2px solid;
+	grid-template-columns:  1fr;
+	grid-template-areas: "texte" ;
+	                    
+}
+
+.image-grid-4{
+	display: grid;
+	border: 2px solid;
+	grid-template-columns:  1fr;
+	grid-template-areas: "texte" ;
+	                    
+}
+
+.image1{
+	display: grid;
+	justify-content : start;
+	border: 2px solid;
+	grid-template-columns:  25% 25%;
+	grid-template-rows: 25% 25%;
+	grid-template-areas: "un deux"
+	                     "trois quatre";
+}
+
+.image2{
+	display: grid;
+	justify-content : end;
+	border: 2px solid;
+	grid-template-columns:  25% 25%;
+	grid-template-rows: 25% 25%;
+	grid-template-areas: "un deux"
+	                     "trois quatre";
+}
+
+.image3{
+	display: grid;
+	justify-content: center;
+	border: 2px solid;
+	grid-template-columns:  25% 25%;
+	grid-template-rows: 25% 25%;
+	grid-template-areas: "un deux"
+	                     "trois quatre";
+}
+
+.image4{
+	display: grid;
+	justify-content: space-between;
+	border: 2px solid;
+	grid-template-columns:  25% 25%;
+	grid-template-rows: 25% 25%;
+	grid-template-areas: "un deux"
+	                     "trois quatre";
+}
+
+.image5{
+	display: grid;
+	justify-content: space-around;
+	border: 2px solid;
+	grid-template-columns:  25% 25%;
+	grid-template-rows: 25% 25%;
+	grid-template-areas: "un deux"
+	                     "trois quatre";
+}
+
+.image6{
+	display: grid;
+	justify-content: space-evenly;
+	border: 2px solid;
+	grid-template-columns:  25% 25%;
+	grid-template-rows: 25% 25%;
+	grid-template-areas: "un deux"
+	                     "trois quatre";
+}
+
+.image7{
+	display: grid;
+	justify-content: stretch;
+	border: 2px solid;
+	grid-template-columns:  1fr 1fr;
+	grid-template-rows: 25% 25%;
+	grid-template-areas: "un-stretch deux-stretch"
+	                     "trois-stretch quatre-stretch";
+}
+
+.image8{
+	display: grid;
+	align-content : start;
+	border: 2px solid;
+	grid-template-columns:  25% 25%;
+	grid-template-rows: 25% 25%;
+	grid-template-areas: "un deux"
+	                     "trois quatre";
+}
+
+.image9{
+	display: grid;
+	align-content : end;
+	border: 2px solid;
+	grid-template-columns:  25% 25%;
+	grid-template-rows: 25% 25%;
+	grid-template-areas: "un deux"
+	                     "trois quatre";
+}
+
+.image10{
+	display: grid;
+	align-content: center;
+	border: 2px solid;
+	grid-template-columns:  25% 25%;
+	grid-template-rows: 25% 25%;
+	grid-template-areas: "un deux"
+	                     "trois quatre";
+}
+
+.image11{
+	display: grid;
+	align-content: space-between;
+	border: 2px solid;
+	grid-template-columns:  25% 25%;
+	grid-template-rows: 25% 25%;
+	grid-template-areas: "un deux"
+	                     "trois quatre";
+}
+
+.image12{
+	display: grid;
+	align-content: space-around;
+	border: 2px solid;
+	grid-template-columns:  25% 25%;
+	grid-template-rows: 25% 25%;
+	grid-template-areas: "un deux"
+	                     "trois quatre";
+}
+
+.image13{
+	display: grid;
+	align-content: space-evenly;
+	border: 2px solid;
+	grid-template-columns:  25% 25%;
+	grid-template-rows: 25% 25%;
+	grid-template-areas: "un deux"
+	                     "trois quatre";
+}
+
+.image14{
+	display: grid;
+	align-content: stretch;
+	border: 2px solid;
+	grid-template-columns: 25% 25%;
+	grid-template-rows:  1fr 1fr;
+	grid-template-areas: "un-stretch deux-stretch"
+	                     "trois-stretch quatre-stretch";
+}
+.image-ligne18{
+	display: grid;
+	align-content: center ;
+    justify-content: center ;
+    align-items: strech;
+	border: 2px solid;
+	grid-template-columns: 80px 80px;
+	grid-template-rows: 80px 80px;
+	grid-template-areas: "un-ligne deux-ligne"
+	                     "trois-ligne quatre-ligne";
+}
+.image-ligne15{
+	display: grid;
+	align-content : center;
+	justify-content: center;
+	align-items: start;
+	border: 2px solid;
+	grid-template-columns: 80px 80px;
+	grid-template-rows: 80px 80px;
+	grid-template-areas: "un-ligne deux-ligne"
+	                     "trois-ligne quatre-ligne";
+}
+
+.image-ligne16{
+	display: grid;
+	align-content: center ;
+    justify-content: center ;
+    align-items: end ;
+	border: 2px solid;
+	grid-template-columns: 80px 80px;
+	grid-template-rows: 80px 80px;
+	grid-template-areas: "un-ligne deux-ligne"
+	                     "trois-ligne quatre-ligne";
+}
+
+.image-ligne17{
+	display: grid;
+	align-content: center ;
+    justify-content: center ;
+    align-items: center;
+	border: 2px solid;
+	grid-template-columns: 80px 80px;
+	grid-template-rows: 80px 80px;
+	grid-template-areas: "un-ligne deux-ligne"
+	                     "trois-ligne quatre-ligne";
+}
+
+.image-ligne19{
+	display: grid;
+	align-content: center ;
+    justify-content: center ;
+    justify-items: start;
+	border: 2px solid;
+	grid-template-columns: 80px 80px;
+	grid-template-rows: 80px 80px;
+	grid-template-areas: "un-ligne deux-ligne"
+	                     "trois-ligne quatre-ligne";
+}
+
+.image-ligne20{
+	display: grid;
+	align-content: center ;
+    justify-content: center ;
+    justify-items: end;
+	border: 2px solid;
+	grid-template-columns: 80px 80px;
+	grid-template-rows: 80px 80px;
+	grid-template-areas: "un-ligne deux-ligne"
+	                     "trois-ligne quatre-ligne";
+}
+
+.image-ligne21{
+	display: grid;
+	align-content: center ;
+    justify-content: center ;
+    justify-items: center;
+	border: 2px solid;
+	grid-template-columns: 80px 80px;
+	grid-template-rows: 80px 80px;
+	grid-template-areas: "un-ligne deux-ligne"
+	                     "trois-ligne quatre-ligne";
+}
+
+.image-ligne22{
+	display: grid;
+	align-content: center;
+    justify-content: center;
+    align-items: stretch;   
+    justify-items: stretch; 
+	border: 2px solid;
+	grid-template-columns: 80px 80px;
+	grid-template-rows: 80px 80px;
+	grid-template-areas: "un-ligne deux-ligne"
+	                     "trois-ligne quatre-ligne";
+}
+
+.image-ligne23{
+	display: grid;
+	align-content: center;
+    justify-content: center;
+    align-items: stretch;   
+    justify-items: stretch; 
+	border: 2px solid;
+	grid-template-columns: 80px 80px;
+	grid-template-rows: 80px 80px;
+	grid-template-areas: "un-ligne-un deux-ligne-un"
+	                     "trois-ligne-un quatre-ligne-un";
+}
+
+.image-ligne24{
+	display: grid;
+	align-content: center;
+    justify-content: center;
+    align-items: stretch;   
+    justify-items: stretch; 
+	border: 2px solid;
+	grid-template-columns: 80px 80px;
+	grid-template-rows: 80px 80px;
+	grid-template-areas: "cinq-ligne-un six-ligne-un"
+	                     "sept-ligne-un huit-ligne-un";
+}
+
+.image-ligne25{
+	display: grid;
+	align-content: center;
+    justify-content: center;
+    align-items: stretch;   
+    justify-items: stretch; 
+	border: 2px solid;
+	grid-template-columns: 80px 80px;
+	grid-template-rows: 80px 80px;
+	grid-template-areas: "neuf-ligne-un dix-ligne-un"
+	                     "onze-ligne-un douze-ligne-un";
+}
+
+.image-ligne26{
+	display: grid;
+	align-content: center;
+    justify-content: center;
+    align-items: stretch;   
+    justify-items: stretch; 
+	border: 2px solid;
+	grid-template-columns: 80px 80px;
+	grid-template-rows: 80px 80px;
+	grid-template-areas: "treze-ligne-un quatorze-ligne-un"
+	                     "quinze-ligne-un seize-ligne-un";
+}
+
+.image-ligne27{
+	display: grid;
+	align-content: center;
+    justify-content: center;
+    align-items: stretch;   
+    justify-items: stretch; 
+	border: 2px solid;
+	grid-template-columns: 80px 80px;
+	grid-template-rows: 80px 80px;
+	grid-template-areas: "dix-sept-ligne-un dix-huit-ligne-un"
+	                     "dix-neuf-ligne-un vingt-ligne-un";
+}
+
+.image-ligne28{
+	display: grid;
+	align-content: center;
+    justify-content: center;
+    align-items: stretch;   
+    justify-items: stretch; 
+	border: 2px solid;
+	grid-template-columns: 80px 80px;
+	grid-template-rows: 80px 80px;
+	grid-template-areas: "vingt-un-ligne-un vingt-deux-ligne-un"
+	                     "vingt-trois-ligne-un vingt-quatre-ligne-un";
+}
+
+.image-ligne29{
+	display: grid;
+	align-content: center;
+    justify-content: center;
+    align-items: stretch;   
+    justify-items: stretch; 
+	border: 2px solid;
+	grid-template-columns: 80px 80px;
+	grid-template-rows: 80px 80px;
+	grid-template-areas: "vingt-cinq-ligne-un vingt-six-ligne-un"
+	                     "vingt-sept-ligne-un vingt-huit-ligne-un";
+}
+
+.image-ligne30{
+	display: grid;
+	align-content: center;
+    justify-content: center;
+    align-items: stretch;   
+    justify-items: stretch; 
+	border: 2px solid;
+	grid-template-columns: 80px 80px;
+	grid-template-rows: 80px 80px;
+	grid-template-areas: "vingt-neuf-ligne-un trente-ligne-un"
+	                     "trente-un-ligne-un trente-deux-ligne-un";
+}

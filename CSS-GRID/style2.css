@@ -1,0 +1,104 @@
+
+.titre-css-grid{
+	grid-area: titre;
+	display: flex;
+	padding: 30px;
+	align-items: center;
+	justify-content: center;
+	background-color:#40739e;
+	font-size: 5em;
+	font-weight: bold;
+	letter-spacing: 3px;
+	border: 2px solid #273c75;
+	color: white;
+	text-shadow: 1px 1px 3px black; 
+}
+
+.titre-code1{
+	grid-area: titre-code1;
+	display: flex;
+	padding: 20px;
+	align-items: center;
+	justify-content: center;
+	background-color: #9c88ff;
+	font-size: 1.5em;
+	font-style: italic;
+	font-weight: bold;
+	letter-spacing: 3px;
+	box-shadow: 1px 1px 3px;
+}
+.titre-code2{
+	grid-area: titre-code2;
+	display: flex;
+	padding: 20px;
+	margin-top: 15px;
+	align-items: center;
+	justify-content: center;
+	background-color: #9c88ff;
+	font-size: 1.5em;
+	font-style: italic;
+	font-weight: bold;
+	letter-spacing: 3px;
+	box-shadow: 1px 1px 3px;
+}
+.titre-code3{
+	grid-area: titre-code3;
+	display: flex;
+	padding: 20px;
+	margin-top: 15px;
+	align-items: center;
+	justify-content: center;
+	background-color: #9c88ff;
+	font-size: 1.5em;
+	font-style: italic;
+	font-weight: bold;
+	letter-spacing: 3px;
+	box-shadow: 1px 1px 3px;
+}
+.titre-code4{
+	grid-area: titre-code4;
+	display: flex;
+	padding: 20px;
+	margin-top: 15px;
+	align-items: center;
+	justify-content: center;
+	background-color: #9c88ff;
+	font-size: 1.5em;
+	font-style: italic;
+	font-weight: bold;
+	letter-spacing: 3px;
+	box-shadow: 1px 1px 3px;
+}
+.titre-code5{
+	grid-area: titre-code5;
+	display: flex;
+	padding: 20px;
+	margin-top: 15px;
+	align-items: center;
+	justify-content: center;
+	background-color: #9c88ff;
+	font-size: 1.5em;
+	font-style: italic;
+	font-weight: bold;
+	letter-spacing: 3px;
+	box-shadow: 1px 1px 3px;
+}
+.titre-code6{
+	grid-area: titre-code6;
+	display: flex;
+	padding: 20px;
+	margin-top: 15px;
+	align-items: center;
+	justify-content: center;
+	background-color: #9c88ff;
+	font-size: 1.5em;
+	font-style: italic;
+	font-weight: bold;
+	letter-spacing: 3px;
+	box-shadow: 1px 1px 3px;
+}
+
+.justify-titre{
+	color:#FFC901;
+	text-shadow: 1px 1px 5px black;
+}

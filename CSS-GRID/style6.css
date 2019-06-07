@@ -1,0 +1,61 @@
+.fleche{
+	color: white;
+}
+.texteCode{
+	background-color: black;
+}
+.code{
+   margin-left: 40px;
+   font-weight: bold;
+   font-size: 1.3em;
+   padding:30px;
+ }
+.valeur{
+	color:#4cd137;
+}
+
+.valeur-texte-couleur{
+	color:#FFBA00;
+}
+.parDefaut{
+	color:#b2bec3;
+	font-weight:normal;
+}
+
+.justify{
+	color:yellow;
+}
+
+.areas{
+	color:#64FDFE;
+}
+
+.valeur-grid{
+	color:#FFBA00;
+}
+.template{
+	color:#EC73FF;
+}
+
+.selecteur{
+	color:red;
+}
+
+.selecteur-2{
+	color:red;
+	font-weight: bold;
+}
+
+.display{
+	color:#66d9ef;
+	font-style:italic;
+}
+.flex{
+	color:#66d9ef;
+}
+.acolade{
+	color: white;
+}
+.deuxPoint{
+	color: white;
+}

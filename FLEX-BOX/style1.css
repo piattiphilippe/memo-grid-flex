@@ -1,0 +1,55 @@
+
+.container{
+	display: grid;
+	margin: 15px;
+	grid-template-columns: repeat(2, 1fr);
+	grid-row-gap: 7px;
+	grid-column-gap: 5px;
+	grid-template-areas: "titre titre"
+						 "code1 image1"
+						 "code2 image2"
+						 "code3 image3"
+						 "code4 image4"
+						 "code8 image8"
+						 "code9 image9"
+						 "code10 image10"
+						 "code11 image11"
+						 "code12 image12"
+						 "code13 image13"
+						 "code14-flex-start image14-flex-start"						 
+						 "code14-flex-end image14-flex-end"
+						 "code14 image14"
+						 "code14-align-self image14-align-self"
+						 "code14-align-self-deux image14-align-self-deux"
+						 
+						 "code5 image5"
+						 "code6 image6"
+						 "code7 image7"
+						 "code15 image15"
+						 "code16 image16"
+						 "code17 image17"
+						 "code18 image18"
+						 "code19 image19"
+						 "code20 image20"
+						 "code21 image21"
+						 "code22 image22"
+						 "code23 image23"
+						 "code24 image24"
+						 "code25 image25"
+						 "code26 image26"
+						 "code27 image27"
+						 "code28 image28"
+						 "code29 image29"
+						 "code30 image30"
+						 "code31 image31"
+						 "code32 image32"
+						 "code33 image33"
+						 "code34 image34"
+						 "code35 image35"
+						 "code36 image36"
+						 "code37 image37"
+						 "code38 image38"
+						 "code39 image39"
+						 "code40 image40";											 
+}
+

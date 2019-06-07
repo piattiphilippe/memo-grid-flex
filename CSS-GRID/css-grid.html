@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="style4.css">
+    <link rel="stylesheet" href="style5.css">
+    <link rel="stylesheet" href="style6.css">
+    <link rel="stylesheet" href="style7.css">
+	<link href="https://fonts.googleapis.com/css?family=Playball&display=swap" rel="stylesheet">
+    <title>css-GRID flex-BOX</title>
+</head>
+padding
+<body>         
+ 
+ <div class="container">
+ 
+    <div class="titre-css-grid">CSS&nbsp;&nbsp;-&nbsp;&nbsp;GRID</div>
+	
+    <div class="titre-code1"><span class='justify-titre'><strong>justify-content&nbsp;&nbsp;</strong></span>grille - horizontale </div>	
+	
+	<div class="code-grid-1 texteCode">
+	  <div class="code">
+	    <span class='selecteur'>#conteneur</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='display'>display</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='flex'>grid</span><span class='deuxPoint'> ;</span><br>
+	    
+		<span class='template'>grid-template-columns</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur-grid'>25% &nbsp;25%</span><span class='deuxPoint'> ;</span><br>
+		
+		<span class='template'>grid-template-rows</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur-grid'>25% &nbsp;25%</span><span class='deuxPoint'> ;</span><br><br>
+		<span class='template'>grid-template-areas</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='areas'>"un deux"</span><br>
+	    <span class='areas'>
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		"tois quatre"</span>
+		<span class='deuxPoint'> ;</span><br><br>
+		<span class='justify'>justify-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>_ _ _ </span><span class='deuxPoint'> ;</span><br>
+        <span class='acolade'>{</span>
+	  </div>
+	</div>
+    <div class="image-grid-1">
+	     <div class="texte">Les valeurs de la grille sont en (<span class= "valeur-texte-couleur">&nbsp;%&nbsp;</span> ) ,<br>mais elle peuvent être en ( <span class= "valeur-texte-couleur">&nbsp;px&nbsp;</span> ) ou en ( <span class= "valeur-texte-couleur">&nbsp;fr&nbsp;</span> ) .<br><br>
+		 la configuration de la maquette change selon les valeurs .</div>	    
+	</div>
+    <div class="code1 texteCode">
+	  <div class="code">
+	    <span class='selecteur'>#conteneur</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='display'>display</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='flex'>grid</span><span class='deuxPoint'> ;</span><br>
+	    <span class='justify'>justify-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>start</span><span class='deuxPoint'> ;</span><span class='parDefaut'>&nbsp;&nbsp;&nbsp;/* par défaut */</span><br>
+        <span class='acolade'>{</span>
+	  </div>
+	</div>
+    <div class="image1">
+	     <div class="un">1</div>
+	     <div class="deux">2</div>
+	     <div class="trois">3</div>
+	     <div class="quatre">4</div>
+	</div>
+	  <div class="code2 texteCode">
+	  <div class="code">
+	    <span class='selecteur'>#conteneur</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='display'>display</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='flex'>grid</span><span class='deuxPoint'> ;</span><br>
+	    <span class='justify'>justify-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>end</span><span class='deuxPoint'> ;</span><br>
+        <span class='acolade'>{</span>
+	  </div>
+	  </div>
+    <div class="image2">
+	     <div class="un">1</div>
+	     <div class="deux">2</div>
+	     <div class="trois">3</div>
+	     <div class="quatre">4</div>
+	</div>
+	<div class="code3 texteCode">
+	  <div class="code">
+	    <span class='selecteur'>#conteneur</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='display'>display</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='flex'>grid</span><span class='deuxPoint'> ;</span><br>
+	    <span class='justify'>justify-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>center</span><span class='deuxPoint'> ;</span><br>
+        <span class='acolade'>{</span>
+	  </div>
+	</div>
+    <div class="image3">
+	     <div class="un">1</div>
+	     <div class="deux">2</div>
+	     <div class="trois">3</div>
+	     <div class="quatre">4</div>
+	</div>
+	<div class="code4 texteCode">
+	  <div class="code">
+	    <span class='selecteur'>#conteneur</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='display'>display</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='flex'>grid</span><span class='deuxPoint'> ;</span><br>
+	    <span class='justify'>justify-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>space-between</span><span class='deuxPoint'> ;</span><br>
+        <span class='acolade'>{</span>
+	  </div>
+	</div>
+    <div class="image4">
+	     <div class="un">1</div>
+	     <div class="deux">2</div>
+	     <div class="trois">3</div>
+	     <div class="quatre">4</div>
+	</div>
+	<div class="code5 texteCode">
+	  <div class="code">
+	    <span class='selecteur'>#conteneur</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='display'>display</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='flex'>grid</span><span class='deuxPoint'> ;</span><br>
+	    <span class='justify'>justify-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>space-around</span><span class='deuxPoint'> ;</span><br>
+        <span class='acolade'>{</span>
+	  </div>
+	</div>
+    <div class="image5">
+	     <div class="un">1</div>
+	     <div class="deux">2</div>
+	     <div class="trois">3</div>
+	     <div class="quatre">4</div>
+	</div>
+	<div class="code6 texteCode">
+	  <div class="code">
+	    <span class='selecteur'>#conteneur</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='display'>display</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='flex'>grid</span><span class='deuxPoint'> ;</span><br>
+	    <span class='justify'>justify-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>space-evenly</span><span class='deuxPoint'> ;</span><br>
+        <span class='acolade'>{</span>
+	  </div>
+	</div>
+    <div class="image6">
+	     <div class="un">1</div>
+	     <div class="deux">2</div>
+	     <div class="trois">3</div>
+	     <div class="quatre">4</div>
+	</div>
+	<div class="code7 texteCode">
+	  <div class="code">
+	    <span class='selecteur'>#conteneur</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='display'>display</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='flex'>grid</span><span class='deuxPoint'> ;</span><br>
+	    
+		<span class='template'>grid-template-columns</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur-grid'>repeat ( 2, 1fr )</span><span class='deuxPoint'> ;</span><br>
+		
+		<span class='template'>grid-template-rows</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur-grid'>25% &nbsp;25%</span><span class='deuxPoint'> ;</span><br><br>
+		<span class='template'>grid-template-areas</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='areas'>"un deux"</span><br>
+	    <span class='areas'>
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		"tois quatre"</span>
+		<span class='deuxPoint'> ;</span><br><br>
+		<span class='justify'>justify-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>stretch</span><span class='deuxPoint'> ;</span><span class='parDefaut'>&nbsp;&nbsp;&nbsp;/* par défaut */</span><br><br>
+        <span class='acolade'>{</span>
+	  </div>
+	</div>
+    <div class="image7">
+	     <div class="un-stretch">1fr <span class='largeur'>&nbsp;l&nbsp;</span> &nbsp;-&nbsp; 25% <span class='hauteur'>&nbsp;h</span></div>
+	     <div class="deux-stretch">1fr <span class='largeur'>&nbsp;l&nbsp;</span> &nbsp;-&nbsp; 25% <span class='hauteur'>&nbsp;h</span></div>
+	     <div class="trois-stretch">1fr <span class='largeur'>&nbsp;l&nbsp;</span> &nbsp;-&nbsp; 25% <span class='hauteur'>&nbsp;h</span></div>
+	     <div class="quatre-stretch">1fr <span class='largeur'>&nbsp;l&nbsp;</span> &nbsp;-&nbsp; 25% <span class='hauteur'>&nbsp;h</span></div>
+	</div>
+	
+	<div class="titre-code2"><span class='justify-titre'><strong>align-content&nbsp;&nbsp;</strong></span>grille - vertical </div>	
+	
+	<div class="code-grid-2 texteCode">
+	  <div class="code">
+	    <span class='selecteur'>#conteneur</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='display'>display</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='flex'>grid</span><span class='deuxPoint'> ;</span><br>
+	    
+		<span class='template'>grid-template-columns</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur-grid'>25% &nbsp;25%</span><span class='deuxPoint'> ;</span><br>
+		
+		<span class='template'>grid-template-rows</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur-grid'>25% &nbsp;25%</span><span class='deuxPoint'> ;</span><br><br>
+		<span class='template'>grid-template-areas</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='areas'>"un deux"</span><br>
+	    <span class='areas'>
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		"tois quatre"</span>
+		<span class='deuxPoint'> ;</span><br><br>
+		<span class='justify'>align-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>_ _ _ </span><span class='deuxPoint'> ;</span><br>
+        <span class='acolade'>{</span>
+	  </div>
+	</div>
+    <div class="image-grid-2">
+	     <div class="texte">Les valeurs de la grille sont en (<span class= "valeur-texte-couleur">&nbsp;%&nbsp;</span> ) ,<br>mais elle peuvent être en ( <span class= "valeur-texte-couleur">&nbsp;px&nbsp;</span> ) ou en ( <span class= "valeur-texte-couleur">&nbsp;fr&nbsp;</span> ) .<br><br>
+		 la configuration de la maquette change selon les valeurs .</div>	    
+	</div>
+    <div class="code8 texteCode">
+	  <div class="code">
+	    <span class='selecteur'>#conteneur</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='display'>display</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='flex'>grid</span><span class='deuxPoint'> ;</span><br>
+	    <span class='justify'>align-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>start</span><span class='deuxPoint'> ;</span><span class='parDefaut'>&nbsp;&nbsp;&nbsp;/* par défaut */</span><br>
+        <span class='acolade'>{</span>
+	  </div>
+	</div>
+    <div class="image8">
+	     <div class="un">1</div>
+	     <div class="deux">2</div>
+	     <div class="trois">3</div>
+	     <div class="quatre">4</div>
+	</div>
+	  <div class="code9 texteCode">
+	  <div class="code">
+	    <span class='selecteur'>#conteneur</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='display'>display</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='flex'>grid</span><span class='deuxPoint'> ;</span><br>
+	    <span class='justify'>align-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>end</span><span class='deuxPoint'> ;</span><br>
+        <span class='acolade'>{</span>
+	  </div>
+	  </div>
+    <div class="image9">
+	     <div class="un">1</div>
+	     <div class="deux">2</div>
+	     <div class="trois">3</div>
+	     <div class="quatre">4</div>
+	</div>
+	<div class="code10 texteCode">
+	  <div class="code">
+	    <span class='selecteur'>#conteneur</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='display'>display</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='flex'>grid</span><span class='deuxPoint'> ;</span><br>
+	    <span class='justify'>align-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>center</span><span class='deuxPoint'> ;</span><br>
+        <span class='acolade'>{</span>
+	  </div>
+	</div>
+    <div class="image10">
+	     <div class="un">1</div>
+	     <div class="deux">2</div>
+	     <div class="trois">3</div>
+	     <div class="quatre">4</div>
+	</div>
+	<div class="code11 texteCode">
+	  <div class="code">
+	    <span class='selecteur'>#conteneur</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='display'>display</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='flex'>grid</span><span class='deuxPoint'> ;</span><br>
+	    <span class='justify'>align-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>space-between</span><span class='deuxPoint'> ;</span><br>
+        <span class='acolade'>{</span>
+	  </div>
+	</div>
+    <div class="image11">
+	     <div class="un">1</div>
+	     <div class="deux">2</div>
+	     <div class="trois">3</div>
+	     <div class="quatre">4</div>
+	</div>
+	<div class="code12 texteCode">
+	  <div class="code">
+	    <span class='selecteur'>#conteneur</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='display'>display</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='flex'>grid</span><span class='deuxPoint'> ;</span><br>
+	    <span class='justify'>align-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>space-around</span><span class='deuxPoint'> ;</span><br>
+        <span class='acolade'>{</span>
+	  </div>
+	</div>
+    <div class="image12">
+	     <div class="un">1</div>
+	     <div class="deux">2</div>
+	     <div class="trois">3</div>
+	     <div class="quatre">4</div>
+	</div>
+	<div class="code13 texteCode">
+	  <div class="code">
+	    <span class='selecteur'>#conteneur</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='display'>display</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='flex'>grid</span><span class='deuxPoint'> ;</span><br>
+	    <span class='justify'>align-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>space-evenly</span><span class='deuxPoint'> ;</span><br>
+        <span class='acolade'>{</span>
+	  </div>
+	</div>
+    <div class="image13">
+	     <div class="un">1</div>
+	     <div class="deux">2</div>
+	     <div class="trois">3</div>
+	     <div class="quatre">4</div>
+	</div>
+	<div class="code14 texteCode">
+	  <div class="code">
+	    <span class='selecteur'>#conteneur</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='display'>display</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='flex'>grid</span><span class='deuxPoint'> ;</span><br>
+	    
+		<span class='template'>grid-template-columns</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur-grid'>25% &nbsp;25%</span><span class='deuxPoint'> ;</span><br>
+		
+		<span class='template'>grid-template-rows</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur-grid'>repeat ( 2, 1fr )</span><span class='deuxPoint'> ;</span><br><br>
+		<span class='template'>grid-template-areas</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='areas'>"un deux"</span><br>
+	    <span class='areas'>
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		"tois quatre"</span>
+		<span class='deuxPoint'> ;</span><br><br>
+		<span class='justify'>justify-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>stretch</span><span class='deuxPoint'> ;</span><span class='deuxPoint'> </span><span class='parDefaut'>&nbsp;&nbsp;&nbsp;/* par défaut */</span><br><br>
+        <span class='acolade'>{</span>
+	  </div>
+	</div>
+    <div class="image14">
+	   <div class="un-stretch">25% <span class='largeur'>&nbsp;l&nbsp;</span> - 1fr <span class='hauteur'>&nbsp;h</span></div>
+	   <div class="deux-stretch">25% <span class='largeur'>&nbsp;l&nbsp;</span> - 1fr <span class='hauteur'>&nbsp;h</span></div>
+	   <div class="trois-stretch">25% <span class='largeur'>&nbsp;l&nbsp;</span> - 1fr <span class='hauteur'>&nbsp;h</span></div>
+	   <div class="quatre-stretch">25% <span class='largeur'>&nbsp;l&nbsp;</span> - 1fr <span class='hauteur'>&nbsp;h</span></div>
+	</div>
+	
+	<div class="titre-code3"><span class='justify-titre'><strong>align-items&nbsp;&nbsp;</strong>&nbsp;</span>ligne-de-grille-vertical</div>
+	
+	<div class="code-grid-3 texteCode">
+	  <div class="code">
+	    <span class='selecteur'>#conteneur</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='display'>display</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='flex'>grid</span><span class='deuxPoint'> ;</span><br>
+	    
+		<span class='template'>grid-template-columns</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur-grid'>80px &nbsp;80px</span><span class='deuxPoint'> ;</span><br>
+		
+		<span class='template'>grid-template-rows</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur-grid'>80px &nbsp;80px</span><span class='deuxPoint'> ;</span><br><br>
+		<span class='template'>grid-template-areas</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='areas'>"un deux"</span><br>
+	    <span class='areas'>
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		"tois quatre"</span>
+		<span class='deuxPoint'> ;</span><br><br>
+		<span class='justify'>align-content </span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>center</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>justify-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>center</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>align-items</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>_ _ _</span><span class='deuxPoint'> ;</span><br>
+        <span class='acolade'>{</span><br><br>
+		<span class='selecteur'>.un</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='justify'>background-color</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>orange</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>grid-area</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>un</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>padding</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>10px</span><span class='deuxPoint'> ;</span><br>	
+        <span class='acolade'>{</span>
+	  </div>
+	</div>
+    <div class="image-grid-3">
+	     <div class="texte">Les valeurs de la grille sont en (<span class= "valeur-texte-couleur">&nbsp;px&nbsp;</span> ) ,<br>mais elle peuvent être en ( <span class= "valeur-texte-couleur">&nbsp;%&nbsp;</span> ) ou en ( <span class= "valeur-texte-couleur">&nbsp;fr&nbsp;</span> ) .<br><br>
+		 Un padding  different en ( <span class= "valeur-texte-couleur">&nbsp;px&nbsp;</span> ) à été mis dans chaque bloc afin de les différencier .<br><br>
+		 
+		 <span class='parDefaut'>&nbsp;&nbsp;&nbsp;<span class='selecteur-2'>.un<span class='fleche'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8658;&nbsp;&nbsp;&nbsp;</span></span></span>
+		 <span class='justify'>padding</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>10px</span>
+		<span class='deuxPoint'> ;</span><br>
+		<span class='parDefaut'>&nbsp;&nbsp;&nbsp;<span class='selecteur-2'>.deux<span class='fleche'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8658;&nbsp;&nbsp;&nbsp;</span></span></span>
+		 <span class='justify'>padding</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>15px</span>
+		<span class='deuxPoint'> ;</span><br>
+		<span class='parDefaut'>&nbsp;&nbsp;&nbsp;<span class='selecteur-2'>.trois<span class='fleche'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8658;&nbsp;&nbsp;&nbsp;</span></span></span>
+		 <span class='justify'>padding</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>&nbsp;5px</span>
+		<span class='deuxPoint'> ;</span><br>
+		<span class='parDefaut'>&nbsp;&nbsp;&nbsp;<span class='selecteur-2'>.quatre<span class='fleche'>&nbsp;&nbsp;&#8658;&nbsp;&nbsp;&nbsp;</span></span></span>
+		 <span class='justify'>padding</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>12px</span>
+		<span class='deuxPoint'> ;</span>				
+		 </div>
+		 
+	</div>
+	<div class="code18 texteCode">
+	  <div class="code">
+	    <span class='selecteur'>#conteneur</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='display'>display</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='flex'>grid</span><span class='deuxPoint'> ;</span><br>
+	    <span class='justify'>align-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>center</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>justify-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>center</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>align-items</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>stretch</span><span class='deuxPoint'> ;</span><span class='deuxPoint'> </span><span class='parDefaut'>&nbsp;&nbsp;&nbsp;/* par défaut */</span><br>
+        <span class='acolade'>{</span>
+	  </div>
+	</div>
+    <div class="image-ligne18">
+	     <div class="un-ligne"><strong>un</strong></div>
+	     <div class="deux-ligne"><strong>deux</strong></div>
+	     <div class="trois-ligne"><strong>trois</strong></div>
+	     <div class="quatre-ligne"><strong>quatre</strong></div>
+	</div>
+	<div class="code15 texteCode">
+	  <div class="code">
+	    <span class='selecteur'>#conteneur</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='display'>display</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='flex'>grid</span><span class='deuxPoint'> ;</span><br>
+	    <span class='justify'>align-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>center</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>justify-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>center</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>align-items</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>start</span><span class='deuxPoint'> ;</span><br>
+        <span class='acolade'>{</span>
+	  </div>
+	</div>
+    <div class="image-ligne15">
+	     <div class="un-ligne"><strong>un</strong></div>
+	     <div class="deux-ligne"><strong>deux</strong></div>
+	     <div class="trois-ligne"><strong>trois</strong></div>
+	     <div class="quatre-ligne"><strong>quatre</strong></div>
+	</div>
+	<div class="code16 texteCode">
+	  <div class="code">
+	    <span class='selecteur'>#conteneur</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='display'>display</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='flex'>grid</span><span class='deuxPoint'> ;</span><br>
+	    <span class='justify'>align-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>center</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>justify-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>center</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>align-items</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>end</span><span class='deuxPoint'> ;</span><br>
+        <span class='acolade'>{</span>
+	  </div>
+	</div>
+    <div class="image-ligne16">
+	     <div class="un-ligne"><strong>un</strong></div>
+	     <div class="deux-ligne"><strong>deux</strong></div>
+	     <div class="trois-ligne"><strong>trois</strong></div>
+	     <div class="quatre-ligne"><strong>quatre</strong></div>
+	</div>
+	<div class="code17 texteCode">
+	  <div class="code">
+	    <span class='selecteur'>#conteneur</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='display'>display</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='flex'>grid</span><span class='deuxPoint'> ;</span><br>
+	    <span class='justify'>align-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>center</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>justify-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>center</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>align-items</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>center</span><span class='deuxPoint'> ;</span><br>
+        <span class='acolade'>{</span>
+	  </div>
+	</div>
+    <div class="image-ligne17">
+	     <div class="un-ligne"><strong>un</strong></div>
+	     <div class="deux-ligne"><strong>deux</strong></div>
+	     <div class="trois-ligne"><strong>trois</strong></div>
+	     <div class="quatre-ligne"><strong>quatre</strong></div>
+	</div>
+    <div class="titre-code4"><span class='justify-titre'>&nbsp;<strong>justify-items&nbsp;&nbsp;</strong></span>ligne-de-grille-horizontale 
+</div>
+	<div class="code22 texteCode">
+	  <div class="code">
+	    <span class='selecteur'>#conteneur</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='display'>display</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='flex'>grid</span><span class='deuxPoint'> ;</span><br>
+	    <span class='justify'>align-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>center</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>justify-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>center</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>align-items</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>stretch</span><span class='deuxPoint'> ;</span><span class='deuxPoint'> </span><span class='parDefaut'>&nbsp;&nbsp;&nbsp;/* par défaut */</span><br>
+		<span class='justify'>justify-items</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>stretch</span><span class='deuxPoint'> ;</span><span class='deuxPoint'> </span><span class='parDefaut'>&nbsp;&nbsp;&nbsp;/* par défaut */</span><br>
+        <span class='acolade'>{</span>
+	  </div>
+	</div>
+    <div class="image-ligne22">
+	     <div class="un-ligne"><strong>un</strong></div>
+	     <div class="deux-ligne"><strong>deux</strong></div>
+	     <div class="trois-ligne"><strong>trois</strong></div>
+	     <div class="quatre-ligne"><strong>quatre</strong></div>
+	</div>
+    <div class="code19 texteCode">
+	  <div class="code">
+	    <span class='selecteur'>#conteneur</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='display'>display</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='flex'>grid</span><span class='deuxPoint'> ;</span><br>
+	    <span class='justify'>align-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>center</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>justify-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>center</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>align-items</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>stretch</span><span class='deuxPoint'> ;</span><span class='deuxPoint'> </span><span class='parDefaut'>&nbsp;&nbsp;&nbsp;/* par défaut */</span><br>
+		<span class='justify'>justify-items</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>start</span><span class='deuxPoint'> ;</span><br>
+        <span class='acolade'>{</span>
+	  </div>
+	</div>
+    <div class="image-ligne19">
+	     <div class="un-ligne"><strong>un</strong></div>
+	     <div class="deux-ligne"><strong>deux</strong></div>
+	     <div class="trois-ligne"><strong>trois</strong></div>
+	     <div class="quatre-ligne"><strong>quatre</strong></div>
+	</div>
+	<div class="code20 texteCode">
+	  <div class="code">
+	    <span class='selecteur'>#conteneur</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='display'>display</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='flex'>grid</span><span class='deuxPoint'> ;</span><br>
+	    <span class='justify'>align-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>center</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>justify-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>center</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>align-items</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>stretch</span><span class='deuxPoint'> ;</span><span class='deuxPoint'> </span><span class='parDefaut'>&nbsp;&nbsp;&nbsp;/* par défaut */</span><br>
+		<span class='justify'>justify-items</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>end</span><span class='deuxPoint'> ;</span><br>
+        <span class='acolade'>{</span>
+	  </div>
+	</div>
+    <div class="image-ligne20">
+	     <div class="un-ligne"><strong>un</strong></div>
+	     <div class="deux-ligne"><strong>deux</strong></div>
+	     <div class="trois-ligne"><strong>trois</strong></div>
+	     <div class="quatre-ligne"><strong>quatre</strong></div>
+	</div>
+	<div class="code21 texteCode">
+	  <div class="code">
+	    <span class='selecteur'>#conteneur</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='display'>display</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='flex'>grid</span><span class='deuxPoint'> ;</span><br>
+	    <span class='justify'>align-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>center</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>justify-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>center</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>align-items</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>stretch</span><span class='deuxPoint'> ;</span><span class='deuxPoint'> </span><span class='parDefaut'>&nbsp;&nbsp;&nbsp;/* par défaut */</span><br>
+		<span class='justify'>justify-items</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>center</span><span class='deuxPoint'> ;</span><br>
+        <span class='acolade'>{</span>
+	  </div>
+	</div>
+    <div class="image-ligne21">
+	     <div class="un-ligne"><strong>un</strong></div>
+	     <div class="deux-ligne"><strong>deux</strong></div>
+	     <div class="trois-ligne"><strong>trois</strong></div>
+	     <div class="quatre-ligne"><strong>quatre</strong></div>
+	</div>
+	<div class="titre-code5"><span class='justify-titre'><strong>justify-self&nbsp;&nbsp;</strong></span>ligne-de-grille-horizontale individuel </div>
+
+	
+	<div class="code-grid-4 texteCode">
+	  <div class="code">
+	    <span class='selecteur'>#conteneur</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='display'>display</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='flex'>grid</span><span class='deuxPoint'> ;</span><br>
+	    
+		<span class='template'>grid-template-columns</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur-grid'>80px &nbsp;80px</span><span class='deuxPoint'> ;</span><br>
+		
+		<span class='template'>grid-template-rows</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur-grid'>80px &nbsp;80px</span><span class='deuxPoint'> ;</span><br><br>
+		<span class='template'>grid-template-areas</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='areas'>"un deux"</span><br>
+	    <span class='areas'>
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		"tois quatre"</span>
+		<span class='deuxPoint'> ;</span><br><br>
+		<span class='justify'>align-content </span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>center</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>justify-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>center</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>align-items</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'> stretch </span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>justify-items</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'> stretch </span><span class='deuxPoint'> ;</span><br>
+        <span class='acolade'>{</span><br><br>
+		<span class='selecteur'>.un</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='justify'>background-color</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>orange</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>grid-area</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>un</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>padding</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>10px</span><span class='deuxPoint'> ;</span><br>	
+        <span class='acolade'>{</span>
+	  </div>
+	</div>
+    <div class="image-grid-4">
+	     <div class="texte">Les valeurs de la grille sont en (<span class= "valeur-texte-couleur">&nbsp;px&nbsp;</span> ) ,<br>mais elle peuvent être en ( <span class= "valeur-texte-couleur">&nbsp;%&nbsp;</span> ) ou en ( <span class= "valeur-texte-couleur">&nbsp;fr&nbsp;</span> ) .<br><br>
+		 
+		 
+		 Un padding   de ( <span class= "valeur-texte-couleur">&nbsp;10px&nbsp;</span> ) à été mis dans le bloc ( <span class='selecteur-2'>.un</span>  ) afin de le différencier .<br><br>	
+		 
+		 
+<span class='parDefaut'>&nbsp;&nbsp;&nbsp;<span class='selecteur-2'>.un<span class='fleche'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8658;&nbsp;&nbsp;&nbsp;</span></span></span>
+		 <span class='justify'>padding</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>10px</span>
+		<span class='deuxPoint'> ;</span><br><br>
+		Cependant les autres padding ont été conservés :<br><br>
+		<span class='parDefaut'>&nbsp;&nbsp;&nbsp;<span class='selecteur-2'>.deux<span class='fleche'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8658;&nbsp;&nbsp;&nbsp;</span></span></span>
+		 <span class='justify'>padding</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>15px</span>
+		<span class='deuxPoint'> ;</span><br>
+		<span class='parDefaut'>&nbsp;&nbsp;&nbsp;<span class='selecteur-2'>.trois<span class='fleche'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8658;&nbsp;&nbsp;&nbsp;</span></span></span>
+		 <span class='justify'>padding</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>&nbsp;5px</span>
+		<span class='deuxPoint'> ;</span><br>
+		<span class='parDefaut'>&nbsp;&nbsp;&nbsp;<span class='selecteur-2'>.quatre<span class='fleche'>&nbsp;&nbsp;&#8658;&nbsp;&nbsp;&nbsp;</span></span></span>
+		 <span class='justify'>padding</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>12px</span>
+		<span class='deuxPoint'> ;</span>
+		 </div>		 
+	</div>
+	<div class="code23 texteCode">
+	  <div class="code">
+	    <span class='selecteur'>#conteneur</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='display'>display</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='flex'>grid</span><span class='deuxPoint'> ;</span><br>
+	    <span class='justify'>align-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>center</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>justify-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>center</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>align-items</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>stretch</span><span class='deuxPoint'> ;</span><span class='deuxPoint'> </span><span class='parDefaut'>&nbsp;&nbsp;&nbsp;/* par défaut */</span><br>
+		<span class='justify'>justify-items</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>stretch</span><span class='deuxPoint'> ;</span><span class='deuxPoint'> </span><span class='parDefaut'>&nbsp;&nbsp;&nbsp;/* par défaut */</span><br>
+        <span class='acolade'>{</span><br><br>
+	    <span class='selecteur'>.un</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='justify'>background-color</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>orange</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>grid-area</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>un</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>justify-self</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>stretch</span><span class='deuxPoint'> ;</span></span><span class='parDefaut'>&nbsp;&nbsp;&nbsp;/* par défaut */</span><br>
+		<span class='justify'>align-self</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>stretch</span><span class='deuxPoint'> ;</span><span class='deuxPoint'> </span><span class='parDefaut'>&nbsp;&nbsp;&nbsp;/* par défaut */</span><br>
+        <span class='acolade'>{</span>
+	  </div>
+	</div>
+    <div class="image-ligne23">
+	     <div class="un-ligne-un"><strong>un</strong></div>
+	     <div class="deux-ligne-un"><strong>deux</strong></div>
+	     <div class="trois-ligne-un"><strong>trois</strong></div>
+	     <div class="quatre-ligne-un"><strong>quatre</strong></div>
+	</div>
+	<div class="code24 texteCode">
+	  <div class="code">
+	    <span class='selecteur'>.un</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='justify'>background-color</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>orange</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>grid-area</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>un</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>justify-self</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>center</span><span class='deuxPoint'> ;</span><br>
+        <span class='acolade'>{</span>
+	  </div>
+	</div>
+    <div class="image-ligne24">
+	     <div class="cinq-ligne-un"><strong>un</strong></div>
+	     <div class="six-ligne-un"><strong>deux</strong></div>
+	     <div class="sept-ligne-un"><strong>trois</strong></div>
+	     <div class="huit-ligne-un"><strong>quatre</strong></div>
+	</div>
+	<div class="code25 texteCode">
+	  <div class="code">
+	    <span class='selecteur'>.un</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='justify'>background-color</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>orange</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>grid-area</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>un</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>justify-self</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>start</span><span class='deuxPoint'> ;</span><br>
+        <span class='acolade'>{</span>
+	  </div>
+	</div>
+    <div class="image-ligne25">
+	     <div class="neuf-ligne-un"><strong>un</strong></div>
+	     <div class="dix-ligne-un"><strong>deux</strong></div>
+	     <div class="onze-ligne-un"><strong>trois</strong></div>
+	     <div class="douze-ligne-un"><strong>quatre</strong></div>
+	</div>
+	<div class="code26 texteCode">
+	  <div class="code">
+	    <span class='selecteur'>.un</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='justify'>background-color</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>orange</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>grid-area</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>un</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>justify-self</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>end</span><span class='deuxPoint'> ;</span><br>
+        <span class='acolade'>{</span>
+	  </div>
+	</div>
+    <div class="image-ligne26">
+	     <div class="treze-ligne-un"><strong>un</strong></div>
+	     <div class="quatorze-ligne-un"><strong>deux</strong></div>
+	     <div class="quinze-ligne-un"><strong>trois</strong></div>
+	     <div class="seize-ligne-un"><strong>quatre</strong></div>
+	</div>
+	<div class="titre-code6"><span class='justify-titre'><strong>align-self&nbsp;&nbsp;</strong></span>ligne-de-grille-vertical individuel 
+	</div>
+	<div class="code27 texteCode">
+	  <div class="code">
+	    <span class='selecteur'>#conteneur</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='display'>display</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='flex'>grid</span><span class='deuxPoint'> ;</span><br>
+	    <span class='justify'>align-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>center</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>justify-content</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>center</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>align-items</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>stretch</span><span class='deuxPoint'> ;</span><span class='deuxPoint'> </span><span class='parDefaut'>&nbsp;&nbsp;&nbsp;/* par défaut */</span><br>
+		<span class='justify'>justify-items</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>stretch</span><span class='deuxPoint'> ;</span><span class='deuxPoint'> </span><span class='parDefaut'>&nbsp;&nbsp;&nbsp;/* par défaut */</span><br>
+        <span class='acolade'>{</span><br><br>
+	    <span class='selecteur'>.un</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='justify'>background-color</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>orange</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>grid-area</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>un</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>align-self</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>stretch</span><span class='deuxPoint'> ;</span><span class='deuxPoint'> </span><span class='parDefaut'>&nbsp;&nbsp;&nbsp;/* par défaut */</span><br>
+        <span class='acolade'>{</span>
+	  </div>
+	</div>
+    <div class="image-ligne27">
+	     <div class="dix-sept-ligne-un"><strong>un</strong></div>
+	     <div class="dix-huit-ligne-un"><strong>deux</strong></div>
+	     <div class="dix-neuf-ligne-un"><strong>trois</strong></div>
+	     <div class="vingt-ligne-un"><strong>quatre</strong></div>
+	</div>
+	<div class="code28 texteCode">
+	  <div class="code">
+	    <span class='selecteur'>.un</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='justify'>background-color</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>orange</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>grid-area</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>un</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>align-self</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>center</span><span class='deuxPoint'> ;</span><br>	
+        <span class='acolade'>{</span>
+	  </div>
+	</div>
+    <div class="image-ligne28">
+	     <div class="vingt-un-ligne-un"><strong>un</strong></div>
+	     <div class="vingt-deux-ligne-un"><strong>deux</strong></div>
+	     <div class="vingt-trois-ligne-un"><strong>trois</strong></div>
+	     <div class="vingt-quatre-ligne-un"><strong>quatre</strong></div>
+	</div>
+	<div class="code29 texteCode">
+	  <div class="code">
+	    <span class='selecteur'>.un</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='justify'>background-color</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>orange</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>grid-area</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>un</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>align-self</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>start</span><span class='deuxPoint'> ;</span><br>	
+        <span class='acolade'>{</span>
+	  </div>
+	</div>
+    <div class="image-ligne29">
+	     <div class="vingt-cinq-ligne-un"><strong>un</strong></div>
+	     <div class="vingt-six-ligne-un"><strong>deux</strong></div>
+	     <div class="vingt-sept-ligne-un"><strong>trois</strong></div>
+	     <div class="vingt-huit-ligne-un"><strong>quatre</strong></div>
+	</div>
+	<div class="code30 texteCode">
+	  <div class="code">
+	    <span class='selecteur'>.un</span>	
+        <span class='acolade'>{</span><br>
+	    <span class='justify'>background-color</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>orange</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>grid-area</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>un</span><span class='deuxPoint'> ;</span><br>
+		<span class='justify'>align-self</span>
+	    <span class='deuxPoint'>:</span>       
+	    <span class='valeur'>end</span><span class='deuxPoint'> ;</span><br>	
+        <span class='acolade'>{</span>
+	  </div>
+	</div>
+    <div class="image-ligne30">
+	     <div class="vingt-neuf-ligne-un"><strong>un</strong></div>
+	     <div class="trente-ligne-un"><strong>deux</strong></div>
+	     <div class="trente-un-ligne-un"><strong>trois</strong></div>
+	     <div class="trente-deux-ligne-un"><strong>quatre</strong></div>
+	</div>
+	
+	
+ </div>
+
+
+
+
+
+</body>
+</html>

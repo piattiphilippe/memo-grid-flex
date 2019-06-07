@@ -1,0 +1,15 @@
+
+.titre-css-grid{
+	grid-area: titre;
+	display: flex;
+	padding: 30px;
+	align-items: center;
+	justify-content: center;
+	background-color:#40739e;
+	font-size: 5em;
+	font-weight: bold;
+	letter-spacing: 3px;
+	border: 2px solid #273c75;
+	color: white;
+	text-shadow: 1px 1px 3px black; 
+}

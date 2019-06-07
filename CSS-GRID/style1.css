@@ -1,0 +1,51 @@
+
+.container{
+	display: grid;
+	margin: 15px;
+	grid-template-columns: repeat(2, 1fr);
+	grid-row-gap: 7px;
+	grid-column-gap: 5px;
+	grid-template-areas: "titre titre"
+	                     "titre-code1 titre-code1"
+						 "code-grid-1 image-grid-1"					
+						 "code1 image1"
+						 "code2 image2"
+						 "code3 image3"
+						 "code4 image4"
+						 "code5 image5"
+						 "code6 image6"
+						 "code7 image7"
+						 "titre-code2 titre-code2"
+						 "code-grid-2 image-grid-2"
+						 "code8 image8"
+						 "code9 image9"
+						 "code10 image10"
+						 "code11 image11"
+						 "code12 image12"
+						 "code13 image13"
+						 "code14 image14"
+						 "titre-code3 titre-code3"
+						 "code-grid-3 image-grid-3"
+						 "code18 image-ligne18"
+						 "code15 image-ligne15"
+						 "code16 image-ligne16"
+						 "code17 image-ligne17"
+						 "titre-code4 titre-code4"
+						 "code22 image-ligne22"
+						 "code19 image-ligne19"
+						 "code20 image-ligne20"
+						 "code21 image-ligne21"
+						 "titre-code5 titre-code5"
+						 "code-grid-4 image-grid-4"
+						 "code23 image-ligne23"
+						 "code24 image-ligne24"
+						 "code25 image-ligne25"
+						 "code26 image-ligne26"
+						 "titre-code6 titre-code6"
+						 "code27 image-ligne27"
+						 "code28 image-ligne28"
+						 "code29 image-ligne29"
+						 "code30 image-ligne30";
+																 
+}
+

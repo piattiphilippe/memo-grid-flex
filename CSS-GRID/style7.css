@@ -1,0 +1,10 @@
+
+body{
+	background-color:#b2bec3;
+	border: 4mm ridge rgba(170, 50, 220, .6);
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}

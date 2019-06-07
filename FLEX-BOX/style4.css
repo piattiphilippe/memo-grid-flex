@@ -1,0 +1,246 @@
+
+
+.image1{
+	border: 2px solid;
+	background-color:white;
+}
+
+.image2{
+	display: flex;
+	border: 2px solid;
+	background-color:white;
+	grid-area: image2;
+}
+
+.image3{
+	display :flex;
+	border: 2px solid;
+	background-color:white;
+	grid-area: image3;
+    flex-direction: column;
+}
+
+.image4{
+	display :flex;
+	border: 2px solid;
+	background-color:white;
+	grid-area: image4;
+    flex-direction: column-reverse;
+}
+
+.image5{
+	display: flex;
+	border: 2px solid;
+	background-color:white;
+	width:90%;
+	grid-area: image5;
+    flex-wrap: wrap;
+}
+
+.image6{
+	display: flex;
+	border: 2px solid;
+	background-color:white;
+	width:90%;
+	grid-area: image6;
+    flex-wrap: wrap-reverse;
+}
+
+.image7{
+	display: flex;
+	border: 2px solid;
+	background-color:white;
+	width:90%;
+	grid-area: image7;
+    flex-wrap: nowrap; 
+}
+
+.image8{
+	display: flex;
+	border: 2px solid;
+	background-color:white;
+	grid-area: image8;
+    justify-content: flex-start; 
+}
+
+.image9{
+	display: flex;
+	border: 2px solid;
+	background-color:white;
+	grid-area: image9;
+    justify-content: flex-end; 
+}
+
+.image10{
+	display: flex;
+	border: 2px solid;
+	background-color:white;
+	grid-area: image10;
+    justify-content: center; 
+}
+
+.image11{
+	display: flex;
+	border: 2px solid;
+	background-color:white;
+	grid-area: image11;
+    justify-content: space-between; 
+}
+
+.image12{
+	display: flex;
+	border: 2px solid;
+	background-color:white;
+	grid-area: image12;
+    justify-content: space-around; 
+}
+
+.image13{
+	display: flex;
+	border: 2px solid;
+	background-color:white;
+	grid-area: image13;
+    justify-content: space-evenly; 
+}
+
+.image14{
+	display: flex;
+	border: 2px solid;
+	background-color:white;
+	grid-area: image14;
+    justify-content: center; 
+	align-items: center;
+}
+
+.image14-align-self{
+	display: flex;
+	border: 2px solid;
+	background-color:white;
+	grid-area: image14-align-self;
+    justify-content: center; 
+	align-items: center;
+	
+}
+
+.image14-align-self-deux{
+	display: flex;
+	border: 2px solid;
+	background-color:white;
+	grid-area: image14-align-self-deux;
+    justify-content: center; 
+	align-items: center;
+}
+.image14-flex-start{
+	display: flex;
+	border: 2px solid;
+	background-color:white;
+	grid-area: image14-flex-start;
+    justify-content: center; 
+	align-items: flex-start;
+}
+
+.image14-flex-end{
+	display: flex;
+	border: 2px solid;
+	background-color:white;
+	grid-area: image14-flex-end;
+    justify-content: center; 
+	align-items: flex-end;
+}
+
+.image15{
+	display: flex;
+	border: 2px solid;
+	background-color:white;
+	width:50%;
+	height: 400px;
+	grid-area: image15;
+    flex-wrap: wrap; 
+	align-content: flex-start;
+}
+
+.image16{
+	display: flex;
+	border: 2px solid;
+	background-color:white;
+	width:50%;
+	height: 400px;
+	grid-area: image16;
+    flex-wrap: wrap; 
+	align-content: flex-end;
+}
+
+.image17{
+	display: flex;
+	border: 2px solid;
+	background-color:white;
+	width:50%;
+	height: 400px;
+	grid-area: image17;
+    flex-wrap: wrap; 
+	align-content: center;
+}
+
+.image18{
+	display: flex;
+	border: 2px solid;
+	background-color:white;
+	width:50%;
+	height: 400px;
+	grid-area: image18;
+    flex-wrap: wrap; 
+	align-content: space-between;
+}
+
+.image19{
+	display: flex;
+	border: 2px solid;
+	background-color:white;
+	width:50%;
+	height: 400px;
+	grid-area: image19;
+    flex-wrap: wrap; 
+	align-content: space-around;
+}
+
+.image20{
+	display: flex;
+	border: 2px solid;
+	background-color:white;
+	width:50%;
+	height: 400px;
+	grid-area: image20;
+    flex-wrap: wrap; 
+	align-content: space-evenly;
+}
+
+.image21{
+	display: flex;
+	border: 2px solid;
+	background-color:white;
+	width:50%;
+	height: 400px;
+	grid-area: image21;
+    flex-wrap: wrap; 
+	align-content: stretch;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

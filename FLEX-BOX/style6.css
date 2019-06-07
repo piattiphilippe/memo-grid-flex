@@ -1,0 +1,37 @@
+
+.texteCode{
+	background-color: black;
+}
+.code{
+   margin-left: 40px;
+   font-weight: bold;
+   font-size: 1.3em;
+   padding:30px;
+ }
+.valeur{
+	color:#4cd137;
+}
+.parDefaut{
+	color:#b2bec3;
+	font-weight:normal;
+}
+.justify{
+	color:yellow;
+}
+
+.selecteur{
+	color:#fe4481;
+}
+.display{
+	color:#66d9ef;
+	font-style:italic;
+}
+.flex{
+	color:#66d9ef;
+}
+.acolade{
+	color: white;
+}
+.deuxPoint{
+	color: white;
+}
