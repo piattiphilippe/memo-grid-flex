@@ -1,0 +1,6 @@
+> 1/ Dans menu contextuel à la racine du projet, cliquer sur Git Bash Here
+> 2/ Dans la console : git status
+> 3/ Valider les changments avec git commit -am "Mon message de commit"
+> 4/ Envoyer sur le serveur : git push
+> 5/ Entrer ton identifiant (piattiphilippe) et ton mot de passe dans la fenêtre qui s'ouvre (philton56)
+
